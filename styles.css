@@ -1,0 +1,243 @@
+/* regole generali */
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  height: 330vh;
+
+
+}
+
+li{
+  display: inline-block;
+  margin: 2% 5%;
+  padding: 2%;
+  border: 5px solid white;
+}
+
+
+
+li:hover{
+  background-color: white;
+  opacity: 0.6;
+  color: black;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
+/* Header */
+
+header{
+      height: 30%;
+      color: white;
+      background-image: url(office.jpg);
+}
+
+nav{
+  height: 15%;
+}
+
+/* Elementi di navigazione */
+
+.signature{
+  height: 100%;
+  width: 20%;
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 2;
+  float: left;
+  color: black;
+
+}
+
+.container-nav{
+  float: right;
+  width: 30%;
+}
+
+
+
+
+/* main */
+
+main{
+  height: 65%;
+}
+
+/* Aboutme */
+
+.aboutme{
+  height: 45%;
+  background-color: rgba(211,211,211,1);
+  position: relative;
+  text-align: center;
+  font-family: 'Patrick Hand', cursive;
+
+}
+
+.aboutme h5{
+  font-size: 40px;
+  padding: 2%;
+}
+
+.aboutme span{
+  font-size: 25px;
+  padding: 5%;
+  position: absolute;
+  top: 30%;
+  display: block;
+  text-align: center;
+}
+
+.aboutme span:first-of-type{
+  margin-left: 15%;
+}
+
+.aboutme-containerimg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20%;
+}
+
+.aboutme-containerimg p{
+  padding: 5%;
+  font-size: 25px;
+}
+
+
+.aboutme-img{
+  border: 5px solid white;
+  margin-top: 7%;
+
+}
+
+.aboutme-img:hover{
+  border: 5px solid black;
+}
+
+.containercharacter{
+  display: flex;
+  justify-content: space-between;
+}
+
+.block-pic{
+  width: 33%;
+  position: relative;
+}
+
+/* Projects  */
+
+.projects{
+  height: 10%;
+  background-color: rgba(105,105,105,1);
+  font-family: 'Patrick Hand', cursive;
+  color: black;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/* Form */
+
+.form{
+  height: 45%;
+  background-image: url(office3.jpg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.info-form{
+  height: 50%;
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(220,220,220,0.3);
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
+
+.info-form-block{
+  height: 80%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.info-form input, select{
+  padding: 0.5%;
+  display: block;
+  margin: 4% auto;
+  flex: 1;
+  border: none;
+}
+
+.info-form select:hover{
+  background-color: rgba(220,220,220,1);
+  color: black;
+}
+
+
+
+.info-form input[type="textarea"]{
+  width: 95%;
+}
+
+.info-form-bottom{
+  height: 20%;
+  width: 100%;
+}
+
+.info-form-bottom input:hover{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.info-form-bottom input{
+  height: 40%;
+  width: 30%;
+
+}
+
+
+/* Footer */
+
+footer{
+
+  height: 5%;
+  display: flex;
+  align-items: center;
+  background-color: rgba(211,211,211,1);
+
+}
+
+footer ul{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+footer li{
+  padding: 1%;
+}
